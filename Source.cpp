@@ -20,6 +20,7 @@ int main(int args, char* argv[]) {
 
 		if (array[i] > array[i + 1]) {
 			cout << x << " ";
+
 		}
 
 
