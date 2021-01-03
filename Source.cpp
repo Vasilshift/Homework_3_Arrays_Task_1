@@ -18,7 +18,7 @@ int main(int args, char* argv[]) {
 
 		cout << x << " ";
 
-		if (array[i] > array[i + 1]) {
+		if (array[x] > array[i + 1]) {
 			cout << x << " ";
 
 		}
