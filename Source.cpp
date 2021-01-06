@@ -8,19 +8,19 @@ int main() {
 
 	srand(time(NULL));
 
-	const int n = 5;
+	const int n = 8;
 
 	int array[n];
 	int i;
 
 	for (i = 0; i < n; i++) {
 
-		array[i] = rand() % n;
+		array[i] = rand() % 10;
 		cout << array[i] << " ";
 	}
 	
 	int max = array[0];
-	int min = array[0];
+	int min = array[1];
 
 	for (i = 0; i < n; i++) {
 
@@ -41,6 +41,6 @@ int main() {
 	cout << "max= " << max << endl;
 	cout << "min= " << min << endl;
 
-	system("pause");
+
 	return 0;
 }
